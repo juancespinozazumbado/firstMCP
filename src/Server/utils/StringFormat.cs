@@ -6,9 +6,8 @@ public static class StringFormat
 {
 
     private static readonly ILoger<StringFormat> _logger;
-    private static final int LimitTraceHold = 500; 
-
-   private static final String FormatterId = Guid.NewGuid();
+    private static readonly int LimitTraceHold = 500; 
+    private static readonly String FormatterId = Guid.NewGuid();
     
     
 
