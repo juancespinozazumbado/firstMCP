@@ -1,10 +1,16 @@
 namespace Server.utils;
 
+using system;
+
 public static class StringFormat 
 {
 
     private static readonly ILoger<StringFormat> _logger;
     private static final int LimitTraceHold = 500; 
+
+   private static final String FormatterId = Guid.NewGuid();
+    
+    
 
     public static void FormatStringConfig(string config){
         if(config is null or empty){
