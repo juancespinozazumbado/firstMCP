@@ -1,4 +1,4 @@
-namespace Server.Tools;
+namespace Server.tools;
 
 public interface IGithubService
 {
