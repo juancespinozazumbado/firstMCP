@@ -33,6 +33,7 @@ public class GithubService : IGithubService
 
     public Task<int> GetTotalIssues(string owner, string repo)
     {
+         _logger.LogInformation("Creating GitHub issue: {Title}", title);
         throw new NotImplementedException();
     }
 }
